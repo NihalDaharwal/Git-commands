@@ -1,0 +1,96 @@
+git config --global user.email email
+git config --global user.name username
+
+
+git init
+
+git --version
+
+git status
+
+git add filename
+
+or
+
+git add --all
+
+git commit -m "typesript tutorial first commit"
+
+git status --short
+
+git log
+
+git branch new_branch_name
+
+git branch
+
+git checkout branch_name
+
+git checkout -b emergeny-fix
+
+git merge emergeny-fix
+
+git branch -d emergency-fix
+
+git remote add origin https://github.com/NihalDaharwal/TypeScript.git
+
+git push --set-upstream origin master
+
+
+git fetch origin
+
+git log master
+
+git diff origin/master
+
+git diff master
+
+git merge origin/master
+
+git push
+
+git push origin
+
+
+git branch -a
+
+Note: branch -r is for remote branches only.
+
+
+git push origin update-readme
+
+
+git push -u origin <branch name>
+ Alternatively, you can use the ‘–set-upstream’ command as well to set the Upstream branch
+git push --set-upstream origin <branch name>
+
+
+git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
+11:31
+git remote add origin <REMOTE_URL>
+This associates the name origin with the REMOTE_URL.
+You can use the command git remote set-url to change a remote's URL.
+
+
+
+writing a good commit is a skill
+
+feat - a new feature
+
+fix -  a bug fix
+
+docs - change in documentation
+
+style - everything related to styling
+
+refactor - code change that is neither fix a bug  or adds a feature
+
+test - everything related to testing
+
+chore -  updating build tasks, package manager config ,etc (edited) 
+
+
+example is
+
+test :  add unit test  for leapYearCheck(); (edited) 
+

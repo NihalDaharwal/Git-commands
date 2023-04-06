@@ -14,6 +14,13 @@ or
 
 git add --all
 
+
+Discarding All Local Changes
+git restore 
+
+or particular file 
+git restore filename
+
 git commit -m "typesript tutorial first commit"
 
 git status --short

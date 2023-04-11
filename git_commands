@@ -44,6 +44,14 @@ git remote add origin https://github.com/NihalDaharwal/TypeScript.git
 git push --set-upstream origin master
 
 
+git remote show origin    
+git remote rm origin    
+git add .    
+git commit -m "First commit"    
+git remote add origin Copied_origin_url    
+git remote show origin   
+git push origin master
+
 git fetch origin
 
 git log master
